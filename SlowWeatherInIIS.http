@@ -1,0 +1,6 @@
+@SlowWeatherInIIS_HostAddress = http://localhost:5010
+
+GET {{SlowWeatherInIIS_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
